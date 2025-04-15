@@ -19,9 +19,7 @@ const DevelopmentNotice = () => {
         /Open-Space
       </div>
       <div className={`absolute inset-0 bg-black transition-transform duration-1000 ease-in-out ${showBlackSplash ? 'translate-y-0' : 'translate-y-full'} z-[42]`} />
-      <div className={`text-white text-xl sm:text-2xl mt-6 sm:mt-8 z-[45] transition-opacity duration-1000 ${showPlatform ? 'opacity-100' : 'opacity-0'} text-center`}>
-        The Platform is Under Development
-      </div>
+      
       <div className={`flex gap-4 mt-6 sm:mt-8 z-[45] ${showButton ? 'opacity-100' : 'opacity-0'} transition-all duration-1000`}>
         <button 
           className="border border-white py-2 px-4 sm:px-6 rounded-full text-base sm:text-lg text-white hover:bg-white hover:text-black transition-all duration-300"
