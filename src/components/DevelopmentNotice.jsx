@@ -33,7 +33,7 @@ const DevelopmentNotice = () => {
           className="border border-white py-2 px-4 sm:px-6 rounded-full text-base sm:text-lg text-white bg-white/10 hover:bg-white hover:text-black transition-all duration-300"
           onClick={() => window.location.href = 'https://open-space.xyz/google-signin'}
         >
-          Sign In (Closed Beta)
+          Sign In
         </button>
       </div>
     </div>
